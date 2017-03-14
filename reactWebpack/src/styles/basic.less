@@ -1,0 +1,136 @@
+html{font-size:62.5%; /* 10÷16=62.5% */} body{font-size:12px;font-size:1.2rem ; /* 12÷10=1.2 */} p{font-size:14px;font-size:1.4rem;}
+*{margin:0;padding: 0;box-sizing: border-box;font-family:'Microsoft YaHei';li{list-style: none}}
+input,textarea{&:focus{outline:none}}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../font/iconfont.woff') format('woff'),
+  url('../font/iconfont.ttf') format('truetype'),
+  url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:2em;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 2.5em;
+  vertical-align: middle;
+  &.backTop{
+    &:before{
+      content:'\e612';
+    }
+  }
+  &.top{
+    &:before{
+      background: linear-gradient(#ff8d00, #ff0000, #a50606);
+      text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.57);
+      -webkit-background-clip: text;
+      color: rgba(255, 0, 0, 0);
+      content:'\e645';
+    }
+  }&.good{
+    &:before{
+      background: linear-gradient(#ffe000, #afa900, #6b5e00);
+      text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.33);
+      -webkit-background-clip: text;
+      color: rgba(19, 19, 19, 0);
+      content:'\e60b';
+    }
+  }
+  &.share{
+    &:before{
+      content:'\e605';
+    }
+  }
+  &.ask{
+    &:before{
+      content:'\e70a';
+    }
+  }
+  &.job{
+    &:before{
+      content:'\e60f';
+    }
+  }
+  &.ag{
+    &:before{
+      content:'\e63c'
+    }
+  }
+  &.rep{
+    &:before{
+      content: '\e61d';
+    }
+  }
+  &.home{
+    &:before{
+      content: '\e631';
+    }
+  }
+  &.apply{
+    &:before{
+      content: '\e603';
+    }
+  }
+  &.message{
+    &:before{
+      content: '\e6bd';
+    }
+  }
+  &.person{
+    &:before{
+      content: '\e66a';
+    }
+  }
+  &.out{
+    &:before{
+      content: '\e600';
+    }
+  }  &.cancel{
+    &:before{
+      content: '\e68e';
+    }
+  }
+  &.sure{
+    &:before{
+      content: '\e65d';
+    }
+  }
+
+}
+.flex{
+  display:flex;margin:0; width: 100%;li{text-align: center;width: 100%;}
+}
+.circle(@r:40px){
+  width:@r;
+  height: @r;
+  text-align: center;
+}
+.ItemCenter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.center(@r:0,@l:0,@t:0,@b:0){
+  position: absolute;
+  display: block;
+  top:@t;
+  bottom:@b;
+  right: @r;
+  left: @l;
+  margin: auto;
+}
+
+.text-overflow(){
+  white-space: nowrap;overflow: hidden;text-overflow: ellipsis;
+}
+.button-g{
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #42a202;
+  background: #4ec300;
+  box-shadow: inset 0 0 2px #ffffff;
+}
