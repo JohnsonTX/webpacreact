@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4b6b5ea-9eae-4804-baa2-81fb3b60a4d5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactWebpack/src/config/config.js" afterPath="$PROJECT_DIR$/reactWebpack/src/config/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reactWebpack/src/config/router.js" afterPath="$PROJECT_DIR$/reactWebpack/src/config/router.js" />
-    </list>
+    <list default="true" id="b4b6b5ea-9eae-4804-baa2-81fb3b60a4d5" name="Default" comment="" />
     <ignored path="webpacreact.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -373,12 +370,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489484664289</updated>
-      <workItem from="1489484665782" duration="2685000" />
+      <workItem from="1489484665782" duration="2902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2685000" />
+    <option name="totallyTimeSpent" value="2902000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="313" y="86" width="1098" height="761" extended-state="0" />
