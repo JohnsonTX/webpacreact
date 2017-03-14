@@ -21,7 +21,7 @@ class Roots extends Component {
     );
   }
 }
-var history = process.env.NODE_ENV !== 'production' ? hashHistory :    browserHistory;
+var history = browserHistory;
 const RouteConfig = (
   <Router history={history}>
     <Route path="/" component={Roots}>
