@@ -6,7 +6,11 @@
 ## 登录
 
 
-> 登录码：11b58a50-e8c6-4d10-b2f6-5c88358f8a12  也可以自己去cnode注册：
+> 登录码：11b58a50-e8c6-4d10-b2f6-5c88358f8a12  
+也可以自己去cnode注册：
+https://github.com/loginclient_id=0625d398dd9166a196e9&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3D0625d398dd9166a196e9%26redirect_uri%3Dhttps%253A%252F%252Fcnodejs.org%252Fauth%252Fgithub%252Fcallback%26response_type%3Dcode
+
+
 ![](https://raw.githubusercontent.com/JohnsonTX/Images/master/react/login.jpeg)
 
 
