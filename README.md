@@ -7,7 +7,7 @@
 
 
 > 登录码：11b58a50-e8c6-4d10-b2f6-5c88358f8a12  也可以自己去cnode注册：
-![](https://raw.githubusercontent.com/JohnsonTX/Images/master/react/singin.jpeg)
+![](https://raw.githubusercontent.com/JohnsonTX/Images/master/react/login.jpeg)
 
 
 ## 个人中心 
