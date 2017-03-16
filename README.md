@@ -2,7 +2,7 @@
 ======
 > 网址： http://johnsontang1988.net76.net/
 
-
+>主要技术有react-webpack/react／react-router／react-redux／redux-thunk
 ## 登录
 
 
